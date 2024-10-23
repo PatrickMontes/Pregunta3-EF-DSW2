@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "97ec3085-4536-419c-b986-13aff0d124ab",
+		"name": "Pregunta3-EF-DSW2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34102124"
+	},
+	"item": [
+		{
+			"name": "getMatriculasByEstudiante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/matriculas/estudiante/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"matriculas",
+						"estudiante",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCursosByFacultad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/cursos/facultad/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cursos",
+						"facultad",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPromedioCreditosByFacultad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/cursos/promedio/facultad/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cursos",
+						"promedio",
+						"facultad",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
